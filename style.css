@@ -1,0 +1,179 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    background-image: url(./bryan-goff-f7YQo-eYHdM-unsplash.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625 rem;
+    margin: 30px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+#circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.spaceship {
+    width: 50%;
+    height: 50%;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.my-img {
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.bottom-container {
+    color: black;
+    background-color: #66bfbf;
+    padding: 10px 0 20px;
+}
+
+.footer-link {
+color: Black;
+margin-bottom: 15px;
+margin-top: 10px;
+
+
+}
+
+.skill-row {
+    width: 5%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: black;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.top-cloud {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 200px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 50px;
+    bottom: 200px;
+}
+
+.typing-img {
+    width: 91%;
+    height: 182px;
+    margin-top: 23px;
+    margin-right: 64px;
+}
+
+.hardwork-img {
+    width: 90%;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background: red;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, );
+    background-image: -o-repeating-linear-gradient(top, pink, white);
+    background-image: linear-gradient(to bottom, #65efef, #284a4a);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat" sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+    background: red;
+    background-image: -webkit-linear-gradient(top, #66bfbf, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #66bfbf, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #66bfbf, #2bc4ad);
+    background-image: -o-repeating-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #284a4a, #65efef);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 90px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
